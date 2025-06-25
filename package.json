@@ -1,0 +1,30 @@
+{
+  "name": "dr-wajud-cv",
+  "version": "1.0.0",
+  "description": "Electronic CV web application for Dr. Wajud Said Salim Al Shibli",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js",
+    "serve-static": "npx serve ."
+  },
+  "keywords": [
+    "cv",
+    "resume",
+    "portfolio",
+    "medical",
+    "pediatric"
+  ],
+  "author": "Dr. Wajud Said Salim Al Shibli",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1",
+    "serve": "^14.2.0"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
